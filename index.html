@@ -55,7 +55,34 @@
     <button id="interviewTab" class="tabBtn bg-gray-200 px-8 py-3 rounded">Interview</button>
     <button id="rejectedTab" class="tabBtn bg-gray-200 px-8 py-3 rounded">Rejected</button>
   </div>
+    <div id="jobContainer" class="space-y-5">
+    <div class="jobCard bg-white p-6 rounded-xl shadow relative">
+        <!-- Delete button -->
+        <button class="deleteBtn absolute top-4 right-4 text-gray-400 hover:text-red-500">
+        <span class="material-icons">delete</span>
+      </button>
+       <h3 class="font-bold text-lg text-blue-900">Mobile First Corp</h3>
+      <p class="text-gray-600">React Native Developer</p>
+      <p class="text-gray-500 text-sm mt-1">Remote • Full-time • $130,000 - $175,000</p>
 
+      <span class="statusTag inline-block mt-2 text-sm bg-gray-200 px-3 py-1 rounded">
+        NOT APPLIED
+      </span>
+
+      <p class="text-gray-600 mt-3">
+        Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.
+      </p>
+
+      <div class="flex gap-3 mt-4">
+        <button class="interviewBtn border border-green-500 text-green-500 px-4 py-1 rounded">
+          Interview
+        </button>
+        <button class="rejectBtn border border-red-500 text-red-500 px-4 py-1 rounded">
+          Rejected
+        </button>
+      </div>
+    </div>  
+    </div>
     </div>
 
 </body>
